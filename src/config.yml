@@ -1,0 +1,29 @@
+#############
+#   v1.0    #
+#   1.15+   #
+#  Steven_  #
+#############
+
+# Permissions:
+# telescope.givecommand
+
+no_permission: "&cYou don't have permission to use this command!"
+full-inventory: "&dYou must have an empty inventory slot!"
+
+
+
+# Change the item of the telescope ITEM LIST HERE: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html >> You can not set byte data!
+telescope-item: "BLAZE_ROD"
+telescope-name: "&dTelescope &7(Right Click)"
+telescope-description:
+  - "&d&lRIGHT CLICK &r&7To zoom in & out!"
+# - "You can make multiple lines! Just delete the hashtag and make more! Must have two spaces before '-'"
+# - ""
+
+# Sets the players walking speed higher, this offsets the slowness allowing them to walk a little bit faster. Disabling this eleminate the ability to move!
+# Also while disabled it has a smoother FOV transition!
+offset-slowness: true
+
+# Enables/Disables the give message
+message-toggle: true
+message: "&dYou have been given a telescope!"
